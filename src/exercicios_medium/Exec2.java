@@ -16,5 +16,6 @@ public class Exec2 {
         System.out.println("Valor investido " + valorInv);
         System.out.println("Valor juros " + valorJuros);
         System.out.println("Valor total: " + valorTotal);
+
     }
 }

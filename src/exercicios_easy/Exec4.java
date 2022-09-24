@@ -1,4 +1,6 @@
 package exercicios_easy;
+import exemplos.MetodosComParametrosMain;
+
 import javax.swing.*;
 
 //4-)  Faça um algoritmo para ler um número inteiro,
@@ -11,7 +13,10 @@ public class Exec4 { //inicio da classe
            num1 = Integer.parseInt(JOptionPane.showInputDialog("Digite um número"));
         //        Exibir: numero*2;
         System.out.println("O dobro é " + num1*2);
+
     }
+
+
 } //fim da classe
 //
 //    Inicio Algoritmo

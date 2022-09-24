@@ -1,5 +1,7 @@
 package exercicios_easy;
 
+import exercicios_medium.Exec1;
+
 import javax.swing.*;
 
 //2-) Faça um algoritmo para ler e exibir uma palavra
