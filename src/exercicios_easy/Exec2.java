@@ -6,13 +6,8 @@ import javax.swing.*;
 
 //2-) Faça um algoritmo para ler e exibir uma palavra
 public class Exec2 {
-    public static void main(String[] args) {
-       // Declarar variável do tipo texto palavra;
-        String palavra;
-        //palavra  = Ler (“Curso”);
-        palavra = JOptionPane.showInputDialog("Digte sua palavraa aqui!");
-        //Exibir: “A palavra é: ” + varPalavra;
-        System.out.println("A Palavra é: " + palavra);
+    public String exibirPalavra(String palavra) {
+       return palavra;
     }
 }
 

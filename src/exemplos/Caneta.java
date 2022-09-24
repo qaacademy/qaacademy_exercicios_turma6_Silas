@@ -12,7 +12,6 @@ public class Caneta {
             throw new Exception("Cor invalida");
         }
     }
-
     public void rabiscar(){
         System.out.println("Rabiscando com a cor " + cor);
     }
