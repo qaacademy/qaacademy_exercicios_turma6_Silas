@@ -3,11 +3,10 @@ package exercicios_easy;
 import exercicios_medium.Exec1;
 
 import javax.swing.*;
-
 //2-) Faça um algoritmo para ler e exibir uma palavra
 public class Exec2 {
     public String exibirPalavra(String palavra) {
-       return palavra;
+        return "A Palavra é: " + palavra;
     }
 }
 
