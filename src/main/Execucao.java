@@ -7,9 +7,12 @@ import exercicios_medium.Exec1;
 
 public class Execucao {
     public static void main(String[] args) {
-        Exec8 exec8 = new Exec8();
-        System.out.println(exec8.calcularImposto(2000));
-        
+        Exec10  exec10 = new Exec10();
+        System.out.println(exec10.calcularInvestimento(2000));
+
+//        Exec8 exec8 = new Exec8();
+//        System.out.println(exec8.calcularImposto(2000));
+//
 //        Exec7 exec7 = new Exec7();
 //        System.out.println(exec7.calcularInss(1000));
 //        Exec6 exec6 = new Exec6();
