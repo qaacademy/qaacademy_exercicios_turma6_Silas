@@ -26,6 +26,6 @@ public class Exec7 {
             inss = 854.15;
             return "O Valor que você de inss será: " +inss;
         }
-        return null;
+        return "Salario não encontrado";
     }
 }

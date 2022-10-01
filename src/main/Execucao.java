@@ -7,8 +7,11 @@ import exercicios_medium.Exec1;
 
 public class Execucao {
     public static void main(String[] args) {
-        Exec10  exec10 = new Exec10();
-        System.out.println(exec10.calcularInvestimento(2000));
+
+        Exec11 exec11 = new Exec11();
+        System.out.println(exec11.somaais2Cemvezes(10));
+//        Exec10  exec10 = new Exec10();
+//        System.out.println(exec10.calcularInvestimento(2000));
 
 //        Exec8 exec8 = new Exec8();
 //        System.out.println(exec8.calcularImposto(2000));
