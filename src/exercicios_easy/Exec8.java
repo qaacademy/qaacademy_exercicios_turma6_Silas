@@ -1,14 +1,9 @@
 package exercicios_easy;
-
-import javax.swing.*;
-import java.awt.*;
-
 public class Exec8 {
-    public static void main(String[] args) {
-        double salario, ir=0;
-        salario = Double.parseDouble(JOptionPane.showInputDialog("Digit seu salario"));
+    public String calcularImposto(double salario) {
+        double ir=0;
         if(salario > 0 && salario <= 1903.98 ) {
-            System.out.println("Isento de imposto de renda");
+            return "Isento de imposto de renda";
         }else{
             if(salario >= 1903.99 && salario <= 2826.65){
                 ir = (salario * 0.075)-142.80;
@@ -23,8 +18,6 @@ public class Exec8 {
                 ir = (salario * 0.275)-869.36;
             }
         }
-        System.out.println("Salario Bruto:  "+ salario);
-        System.out.println("Salario Liquido:  "+  (salario - ir));
-        System.out.println("Imposto a pagar:  " +  ir);
+        return "Salario Bruto:  "+ salario + " - Salario Liquido:  " +  (salario - ir) + " - Imposto a pagar:  " +  ir;
     }
 }

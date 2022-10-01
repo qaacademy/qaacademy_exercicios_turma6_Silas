@@ -2,17 +2,18 @@ package main;
 
 import exemplos.Caneta;
 import exemplos.MetodosSemMain;
-import exercicios_easy.Exec2;
-import exercicios_easy.Exec3_1;
-import exercicios_easy.Exec4;
-import exercicios_easy.Exec5;
+import exercicios_easy.*;
 import exercicios_medium.Exec1;
 
 public class Execucao {
     public static void main(String[] args) {
-
-        Exec1 exec1 = new Exec1();
-        exec1.exibirParImpar();
+        Exec8 exec8 = new Exec8();
+        System.out.println(exec8.calcularImposto(2000));
+        
+//        Exec7 exec7 = new Exec7();
+//        System.out.println(exec7.calcularInss(1000));
+//        Exec6 exec6 = new Exec6();
+//        System.out.println(exec6.calcularMedia(10,5));
 //        Exec5 exec5 = new Exec5();
 //        int num1 = 3, num2 =3, num3 = 3;
 //        System.out.println("A soma é " +exec5.somar(num1,num2,num3));

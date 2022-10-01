@@ -7,22 +7,19 @@ import javax.swing.*;
 //SE a média < que 5 exibir reprovado;
 //Se media = 5 exibir exame.
 public class Exec6 {
-    public static void main(String[] args) {
-        int nota1, nota2, media;
-        nota1 = Integer.parseInt(JOptionPane.showInputDialog("Digite a primeira nota"));
-        nota2 = Integer.parseInt(JOptionPane.showInputDialog("Digite a segunda nota"));
+    public String calcularMedia(int nota1, int nota2) {
+        int media;
+        String retorno = "";
         media = (nota1 + nota2) / 2;
         if (media > 5) {
-            System.out.println(media);
-            System.out.println("Aprovado");
+            retorno = "Aprovado";
         }
         if (media < 5) {
-            System.out.println(media);
-            System.out.println("Reprovado");
+            retorno = "Reprovado";
         }
         if (media == 5) {
-            System.out.println(media);
-            System.out.println("Exame");
+            retorno = "Exame";
         }
+        return retorno;
     }
 }
