@@ -61,5 +61,19 @@ public class ExecEasyTest {
          String esperado = "Salario Bruto:  "+ 3000.0 + " - Salario Liquido:  " +  2904.8 + " - Imposto a pagar:  " +  95.19999999999999;
          assertEquals("Salario invalido", esperado,result1);
      }
+     @Test
+    public void testValorJuros(){
+        Exec10 exec10 = new Exec10();
+       String result =  exec10.calcularInvestimento(1000);
+       String esperado = "Valor dos juros "+ 500.0 + " Valor investimento " + 1000.0 + " Valor total " + 1500.0 ;
+       assertEquals(esperado,result);
+     }
+
+     @Test
+    public void testSoma(){
+        Exec11 exec11 = new Exec11();
+        String result = exec11.somaais2Cemvezes(0);
+        assertEquals("A soma é 200", result);
+     }
 
 }
