@@ -5,7 +5,7 @@ import javax.swing.*;
 //3-) Faça um algoritmo para ler dois valores, armazenar em variáveis, e exibir os valores das variáveis, trocados.
 public class Exec3_1 {
     public String inverterNomes(String nome, String sobrenome) {
-        return "O nome é:" + sobrenome +" "+ nome;
+        return "O nome é: " + sobrenome + nome;
     }
 }
 
